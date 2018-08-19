@@ -1,0 +1,31 @@
+{
+  "name": "30daypact",
+  "version": "1.0.0",
+  "description": "30 day challenge Web App ",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently --kill-others \"npm start --prefix server\" \"npm start --prefix client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/30dayPact/30dayPactApp.git"
+  },
+  "keywords": [
+    "react",
+    "GraphQL",
+    "mongoDB",
+    "express",
+    "node"
+  ],
+  "author": "Akiyo Marukawa, Eneida Revueltas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/30dayPact/30dayPactApp/issues"
+  },
+  "homepage": "https://github.com/30dayPact/30dayPactApp#readme"
+}
