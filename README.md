@@ -1,6 +1,6 @@
 # 30dayPactApp
-30 day challenges with your friends or simple commitment to better self. 
-The app can create 30 challenges with your friends. 
+30 day challenges with your friends or simple commitment to better self.
+
 - Your dashboard displays progress of each challenges. 
 - The challenge pact-room displays progress of pact members. 
 
@@ -8,19 +8,30 @@ The app can create 30 challenges with your friends.
 - Make a directory where you want the project to be. 
 - Make sure you have latest node.js installed.
 - Inside of your project folder, create an empty Git repository.
+
 `git init`
 - Clone the project repository into a the directory using repository url: https://github.com/30dayPact/30dayPactApp.git
+
 `git clone https://github.com/30dayPact/30dayPactApp.git`
 - Go into client folder.
+
 `cd client `
+
 - Install dependency.
+
 `npm install`
 - Repeat this process in the server folder.
-`cd ..`
-`cd server`
+
+`cd ..` -- get out from client folder
+
+`cd server` -- go into server folder
+
 `npm install`
+
 - Install dependency on the project root directory. 
-`cd ..`
+
+`cd ..` -- get out from server folder.
+
 `npm install`
 
 ## To run the app (both Client and Server)
@@ -28,6 +39,7 @@ The app can create 30 challenges with your friends.
 `npm start`
 
 To start both client and server, npm concurrently is used.
+
 `"scripts": {
     "start": "concurrently --kill-others \"npm start --prefix server\" \"npm start --prefix client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -37,8 +49,16 @@ To start both client and server, npm concurrently is used.
 client side is build with React. 
 
 To start just front end, go into client folder. 
+
 `npm yarn start`
 
-### server 
+### Server 
 - under construction
 
+### ToDo:
+- [x] UI/UX design
+- [x] Basic component construction 
+- [x] Databse construction - mongoDB
+- [x]
+- [x]
+- [x]
