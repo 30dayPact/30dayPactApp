@@ -56,9 +56,9 @@ To start just front end, go into client folder.
 - under construction
 
 ### ToDo:
-- [x] UI/UX design
-- [x] Basic component construction 
-- [x] Databse construction - mongoDB
-- [x]
-- [x]
-- [x]
+- [ ] UI/UX design
+- [ ] Basic component construction 
+- [ ] Databse construction - mongoDB
+- [ ] TBD
+- [ ] TBD
+- [ ] TBD
