@@ -4,6 +4,8 @@
   "description": "30 day challenge Web App ",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^1.5.1",
+    "@material-ui/icons": "^2.0.3",
     "concurrently": "^3.6.1"
   },
   "devDependencies": {},

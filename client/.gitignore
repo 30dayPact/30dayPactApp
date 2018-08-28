@@ -19,3 +19,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+Untitled.sketch
+client/public/react_favicon.ico
+client/src/react_logo.svg
+package-lock.json
+.DS_Store
+server/node_modules/
+server/package-lock.json
