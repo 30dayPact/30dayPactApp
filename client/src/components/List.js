@@ -87,7 +87,7 @@ class List extends Component {
                         value="checkedG"
                         />
                       }
-                      //label="things I want to check off"
+                      label="things I want to check off"
                     />
                   </TableCell>
                   <TableCell component="th" scope="row">
